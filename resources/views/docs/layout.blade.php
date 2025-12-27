@@ -423,32 +423,65 @@
             font-size: 0.95rem;
         }
 
+        .feature-item {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 24px;
+        }
+
+        .feature-item .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--bg-surface);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+        }
+
+        .feature-item .feature-icon svg {
+            width: 24px;
+            height: 24px;
+            color: var(--accent);
+        }
+
+        .feature-item h3, .feature-item h4 {
+            margin: 0 0 8px;
+            font-size: 1.1rem;
+            color: var(--text-primary);
+        }
+
+        .feature-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
         /* Steps */
         .steps {
-            counter-reset: step-counter;
             margin: 24px 0;
         }
 
         .step {
-            position: relative;
-            padding-left: 48px;
-            padding-bottom: 32px;
-            border-left: 2px solid var(--border-subtle);
-            margin-left: 16px;
+            display: flex;
+            gap: 20px;
+            padding-bottom: 24px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border-subtle);
         }
 
         .step:last-child {
-            border-left-color: transparent;
+            border-bottom: none;
+            margin-bottom: 0;
             padding-bottom: 0;
         }
 
-        .step::before {
-            counter-increment: step-counter;
-            content: counter(step-counter);
-            position: absolute;
-            left: -17px;
-            width: 32px;
-            height: 32px;
+        .step-number {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
             background: var(--accent);
             color: var(--bg-deep);
             border-radius: 50%;
@@ -456,15 +489,28 @@
             align-items: center;
             justify-content: center;
             font-weight: 600;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
         }
 
-        .step h4 {
-            margin: 0 0 12px;
+        .step-content {
+            flex: 1;
         }
 
-        .step p {
+        .step-content h4 {
+            margin: 0 0 8px;
+            color: var(--text-primary);
+        }
+
+        .step-content p {
             margin-bottom: 12px;
+        }
+
+        .step-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .step-content pre {
+            margin: 12px 0;
         }
 
         /* Footer nav */
@@ -633,7 +679,7 @@
             </header>
 
             <article class="docs-content">
-                @yield('content')
+                @yield('docs-content')
             </article>
         </main>
     </div>
