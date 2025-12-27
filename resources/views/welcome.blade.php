@@ -868,7 +868,7 @@
             <div class="logo">SocialApparatus</div>
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
-                <li><a href="#docs">Documentation</a></li>
+                <li><a href="/docs">Documentation</a></li>
                 <li><a href="#comparison">Compare</a></li>
                 <li><a href="#demo">Demo</a></li>
                 <li><a href="https://github.com/mrshanebarron/socialapparatus" target="_blank">GitHub</a></li>
@@ -1173,7 +1173,7 @@
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Database configuration</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Admin account setup</li>
                     </ul>
-                    <a href="https://github.com/mrshanebarron/socialapparatus#installation" class="doc-link" target="_blank">
+                    <a href="/docs/installation" class="doc-link">
                         Read the guide
                         <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
@@ -1191,7 +1191,7 @@
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Mail & queue setup</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Storage configuration</li>
                     </ul>
-                    <a href="https://github.com/mrshanebarron/socialapparatus#configuration" class="doc-link" target="_blank">
+                    <a href="/docs/configuration" class="doc-link">
                         View options
                         <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
@@ -1209,7 +1209,7 @@
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Analytics & reports</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Role permissions</li>
                     </ul>
-                    <a href="https://github.com/mrshanebarron/socialapparatus#admin" class="doc-link" target="_blank">
+                    <a href="/docs/admin" class="doc-link">
                         Learn more
                         <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
@@ -1227,7 +1227,7 @@
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> API token security</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Privacy controls</li>
                     </ul>
-                    <a href="https://github.com/mrshanebarron/socialapparatus#security" class="doc-link" target="_blank">
+                    <a href="/docs/features" class="doc-link">
                         Security guide
                         <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
@@ -1245,7 +1245,7 @@
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Webhook events</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Rate limiting</li>
                     </ul>
-                    <a href="https://github.com/mrshanebarron/socialapparatus#api" class="doc-link" target="_blank">
+                    <a href="/docs/api" class="doc-link">
                         API docs
                         <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
@@ -1263,7 +1263,7 @@
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Queue workers</li>
                         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg> Redis & caching</li>
                     </ul>
-                    <a href="https://github.com/mrshanebarron/socialapparatus#deployment" class="doc-link" target="_blank">
+                    <a href="/docs/deployment" class="doc-link">
                         Deploy now
                         <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
@@ -1449,7 +1449,7 @@
                 <ul class="footer-links">
                     <li><a href="https://github.com/mrshanebarron/socialapparatus" target="_blank">GitHub</a></li>
                     <li><a href="https://community.socialapparatus.com" target="_blank">Demo</a></li>
-                    <li><a href="#docs">Documentation</a></li>
+                    <li><a href="/docs">Documentation</a></li>
                 </ul>
                 <p class="footer-copy">&copy; 2025 SocialApparatus. Open source under MIT License.</p>
             </div>
